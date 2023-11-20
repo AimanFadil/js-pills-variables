@@ -21,3 +21,33 @@ console.log(circle)
 let name = 'carlo';
 name = 'marco';
 console.log(name);
+
+/* ES 4  */
+let greet = 'Ciao Mondo!';
+console.log(greet);
+
+/* ES 4/B  */
+/* let greet = 'Come stai, Mondo!';
+console.log(greet); */
+
+/* ES 4/C  */
+let scritta = `${greet}Come stai?`;
+console.log(scritta)
+
+/* es1.2 */
+let num_0 = 41;
+let num_1 = 30;
+
+let comparison;
+
+if(num_0 > num_1){
+    comparison = num_0
+}
+else{
+    comparison = num_1
+}
+
+console.log(comparison)
+
+
+
