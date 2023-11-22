@@ -34,8 +34,8 @@ console.log(greet); */
 let scritta = `${greet}Come stai?`;
 console.log(scritta)
 
-/* es1.2 */
-let num_0 = 41;
+/* ES1.2 */
+/* let num_0 = 41;
 let num_1 = 30;
 
 let comparison;
@@ -48,6 +48,35 @@ else{
 }
 
 console.log(comparison)
+ */
+/* ES1.2 */
 
+/* let ciao = ciao;
 
+let buongiorno = ciao;
 
+let comparison;
+
+if(ciao == buongiorno){
+    comparison = "true"
+}
+else{
+    comparison = "false"
+}
+
+console.log(comparison)
+ */
+//ES 2.1
+
+let n = 1;
+
+let comparison;
+
+if(n == '1'){
+    comparison = "true"
+}
+else{
+    comparison = "false"
+}
+
+console.log(comparison)
