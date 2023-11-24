@@ -32,6 +32,35 @@ Crea una variabile `comparison` e assegnale il risultato del confronto tra due n
 **Esercizio 2.1**
 Assegna alla variabile `comparison` il risultato del confronto tra un numero e una stringa (che rappresenta un numero) per verificare se sono uguali. Stampa sulla console il valore di `comparison`
 
+**Esercizio 1/A**  
+Scrivi un *ciclo for* che stampi i numeri interi da 1 a 42 (compresi) 
+
+**Esercizio 1/B**  
+Ora riscrivi il *ciclo for* in modo che stampi i numeri interi da 42 a 1 
+
+**Esercizio 1/A**  
+Definisci un array contenente 8 numeri interi e memorizzalo nella costante `numbers` 
+
+**Esercizio 1/B**  
+Definisci un array contenente le stringhe che seguono e memorizzalo nella costante `fruits`: 
+```
+mela, banana, pesca, pera, albicocca, mango, kiwi, papayaù
+
+**Esercizio 1/C**  
+Stampa in console il numero di elementi che costituiscono l'array `fruits`
+```
+**Esercizio 2/A**
+1. Chiedi all'utente un numero intero e memorizzalo nella costante numOfElements
+2. Crea un array numbers e riempilo con i numeri interi da 1 a numOfElements
+3. Stampa in console l'array numbers e il numero di elementi di cui si compone
+
+**Esercizio 2/B** 
+Calcola la somma di tutti i numeri presenti nell'array numbers dell'esercizio 2/A
+
+**Esercizio 2/C**
+Trova il valore massimo di tutti i numeri presenti nell'array numbers dell'esercizio 2/A
+
+
 
 
 
