@@ -119,23 +119,112 @@ console.log(numbers)
 console.log(numbers.length) */
 
 /* **Esercizio 2/B**  */
-const numOfElements = prompt('inserici il numero')
+/* const numOfElements = prompt('inserici il numero')
 let numbers = [];
 let somma = 0;
 
 for (let i = 1; i <= numOfElements; i++) {
     numbers.push(i);
-}
+} */
 /* for(let i = 0; i <numbers.length; i++){
     somma = somma + numbers[i]
 }
 console.log(somma) */
 
 /* **Esercizio 2/C** */
-let maggiore = numbers[]
+/* let maggiore = numbers
 for(let i = 1; i < numbers.length; i++){
     if( numbers[i] > maggiore){
         maggiore = numbers[i]
     }
 }
-console.log(maggiore)
+console.log(maggiore) */
+
+//snack 1
+/* let num_1 = parseInt(prompt('inserisci un numero'))
+let number = parseInt(prompt('inserisci un numero'))
+
+if(num_1 > number){
+    console.log(num)
+}
+else if(num_1 < number){
+    console.log(number)
+}
+else{
+    console.log('i numeri sono uguali')
+} */
+
+//snack 2
+
+/* let somma = 0
+for(let i=1; i<=10; i++){
+    let num = parseInt(prompt('inserisci un numero'))
+    somma += num;
+}
+console.log(somma) */
+
+//snack 3
+
+//METODO CON FOR E IF ELSE fUORI DAL FOR 
+/* let nome = prompt('chi sei');
+let invitati = ['franco', 'ciccio', 'zio', 'pippo', 'cuggino']
+
+let presente = false;
+for (let i = 0; i < invitati.length; i++) {
+    if (invitati[i] === nome) {
+        presente = true;
+    }
+}
+
+if (presente) {
+    console.log('il tuo invito è valido');
+} else {
+    console.log('il tuo invito non è valido');
+}
+ */
+//snack 4
+
+/* let vuoto = []
+
+
+for(let i=1; i<=6; i++){
+    let num = parseInt(prompt('inserisci un numero'))
+    
+    if(num % 2 != 0){
+        vuoto.push(num)
+    }
+    
+}
+console.log(vuoto) */
+
+
+//**Esercizio 1/A**
+/* function CiaoMondo(){
+    console.log('Ciao,Mondo')
+}
+ */
+//**Esercizio 1/B**
+/* printCiaoMondo(); */
+
+//**Esercizio 2/A**
+/* 
+function somma(num1, num2) {
+    return num1 + num2;
+}
+ */
+//**Esercizio 2/B**
+
+/* let result = somma(5, 7);
+console.log(result);  */
+
+//**Esercizio 1/A**
+
+function getOneStringFromTwo(stringa1, stringa2) {
+    return stringa1 + ' ' + stringa2;
+}
+
+//**Esercizio 1/B**
+let stringa1 = "Unica";
+let stringa2 = "Stringa";
+let StringheCombinate = getOneStringFromTwo(stringa1, stringa2);
+console.log(StringheCombinate); 
