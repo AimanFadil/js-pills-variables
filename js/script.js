@@ -219,12 +219,27 @@ console.log(result);  */
 
 //**Esercizio 1/A**
 
-function getOneStringFromTwo(stringa1, stringa2) {
+/* function getOneStringFromTwo(stringa1, stringa2) {
     return stringa1 + ' ' + stringa2;
-}
+} */
 
 //**Esercizio 1/B**
-let stringa1 = "Unica";
+/* let stringa1 = "Unica";
 let stringa2 = "Stringa";
 let StringheCombinate = getOneStringFromTwo(stringa1, stringa2);
-console.log(StringheCombinate); 
+console.log(StringheCombinate);  */
+
+
+//**Esercizio 1/A**
+/* setTimeout(function() {
+    alert("Ciao a tutti");
+}, 3000);
+ */
+
+let i = 0;
+function aumentaCount() {
+    i++;
+    console.log(i);
+}
+
+setInterval(aumentaCount, 1000);
