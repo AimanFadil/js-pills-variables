@@ -236,10 +236,22 @@ console.log(StringheCombinate);  */
 }, 3000);
  */
 
-let i = 0;
+/* let i = 0;
 function aumentaCount() {
     i++;
     console.log(i);
 }
 
-setInterval(aumentaCount, 1000);
+setInterval(aumentaCount, 1000); */
+
+
+//**Esercizio 1/A**
+// Creazione di un oggetto persona con nome e cognome
+let persona = {
+    nome: 'Aiman',
+    cognome: 'Fadil'
+};
+
+//**Esercizio 1/B**
+console.log('Nome: ' + persona.nome);
+console.log('Cognome: ' + persona.cognome);
